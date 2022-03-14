@@ -1,0 +1,11 @@
+.showInfo {
+    background-color: red;
+    color: white;
+}
+
+.notice {
+    width: 200px;
+    height: auto;
+    background-color: aqua;
+}
+

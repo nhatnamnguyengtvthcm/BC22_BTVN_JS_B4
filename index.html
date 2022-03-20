@@ -12,148 +12,73 @@
   </head>
   <body>
     <div class="container">
-      <!-- <h2>Tìm số lớn nhất</h2> -->
+      <!--Bai 1 -->
       <div class="card">
-        <div class="card-header">Xuất 3 số theo thứ tự tăng dần</div>
-
-        <div class="card-body">
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b1_num_1" aria-describedby="helpId" placeholder="so thu 1">
-          </div>
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b1_num_2" aria-describedby="helpId" placeholder="so thu 2">
-            <small id="helpId" class="form-text text-muted">Help text</small>
-          </div>
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b1_num_3" aria-describedby="helpId" placeholder="so thu 3">
-            <small id="helpId" class="form-text text-muted">Help text</small>
-          </div>
-          <button class="btn btn-success"  id="b1_btn">so sanh</button>
+        <div class="card-header">Tìm số nguyen duong nhỏ nhất sao cho :1 + 2 + … + n > MAX</div>
+        <div class="form-group">
+          <label for=""></label>
+          <input type="number"
+            class="form-control" name="" id="b1_num" aria-describedby="helpId" placeholder="Số Max">
+        </div>
+          <button class="btn btn-success"  id="b1_btn">Kết quả</button>
         </div> 
         <div class="card-footer" id="b1_footer"></div>
       </div>
-      <!-- <h2>Chào hỏi</h2> -->
-      <div class="card">
-        <div class="card-header">Chào hỏi</div>
 
-        <div class="card-body">
+
+
+      <!--Bai 2 -->
+      <div class="bai_2 pt-5 container">
+        <div class="card pt-5">
+          <div class="card-header">S(n) = x + x^2
+            + x^3 + … + x^n</div>
           <div class="form-group">
-            <label for="">Người sử dụng máy là ai</label>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio" value="1">Ba
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio" value = "2"> Mẹ
-              </label>
-            </div>
-            <div class="form-check ">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio" value="3">Anh Trai
-              </label>
-            </div>
-            <div class="form-check  ">
-              <label class="form-check-label">
-                <input type="radio" class="form-check-input" name="optradio" value="4">Em gái
-              </label>
-            </div>
+            <label for=""></label>
+            <input type="number"
+              class="form-control" name="" id="b2_num_1" aria-describedby="helpId" placeholder="Số x">
           </div>
-          
-          <button class="btn btn-success"  id="b2_btn">Submit</button>
-        </div> 
-        <div class="card-footer" id="b2_footer"></div>
+          <div class="form-group">
+            <label for=""></label>
+            <input type="number"
+              class="form-control" name="" id="b2_num_2" aria-describedby="helpId" placeholder="Số n">
+          </div>
+            <button class="btn btn-success"  id="b2_btn">Tính tổng</button>
+          </div> 
+          <div class="card-footer" id="b2_footer"></div>
       </div>
 
-      <div class="card">
-        <div class="card-header">Tổng số chẳn lẻ</div>
+      <!--Bai 3 -->
+      <div class="bai_3 pt-5 container">
+        <div class="card pt-5">
+          <div class="card-header">Tính giai thừa 1*2*...n</div>
+          <div class="form-group">
+            <label for=""></label>
+            <input type="number"
+              class="form-control" name="" id="b3_num" aria-describedby="helpId" placeholder="Số x">
+          </div>
+            <button class="btn btn-success"  id="b3_btn">Tính tổng</button>
+          </div> 
+          <div class="card-footer" id="b3_footer"></div>
+        </div>
 
-        <div class="card-body">
+
+       <!--Bai 4 -->
+       <div class="bai_4 pt-5 container">
+        <div class="card pt-5">
+          <div class="card-header">in ra N thẻ div.</div>
           <div class="form-group">
             <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b3_num_1" aria-describedby="helpId" placeholder="so thu 1">
+            <input type="number"
+              class="form-control" name="" id="b4_num" aria-describedby="helpId" placeholder="Số N">
           </div>
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b3_num_2" aria-describedby="helpId" placeholder="so thu 2">
-            <small id="helpId" class="form-text text-muted">Help text</small>
-          </div>
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b3_num_3" aria-describedby="helpId" placeholder="so thu 3">
-            <small id="helpId" class="form-text text-muted">Help text</small>
-          </div>
-          <button class="btn btn-success"  id="b3_btn">Kết quả</button>
-        </div> 
-        <div class="card-footer" id="b3_footer"></div>
+            <button class="btn btn-success"  id="b4_btn">Tạo div</button>
+          </div> 
+          <div class="card-footer" id="b4_footer"></div>
+        </div>
+
       </div>
 
-      <div class="card">
-        <div class="card-header">Xác định loai tam giác</div>
-
-        <div class="card-body">
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b4_num_1" aria-describedby="helpId" placeholder="canh a">
-          </div>
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b4_num_2" aria-describedby="helpId" placeholder="canh b">
-            <small id="helpId" class="form-text text-muted">Help text</small>
-          </div>
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b4_num_3" aria-describedby="helpId" placeholder="canh c">
-            <small id="helpId" class="form-text text-muted">Help text</small>
-          </div>
-          <button class="btn btn-success"  id="b4_btn">Kết quả</button>
-        </div> 
-        <div class="card-footer" id="b4_footer"></div>
-      </div>
-
-
-      <!-- BÀI 5 -->
-      <div class="card ">
-        <div class="card-header">Ngày kế tiếp - ngày trước đó</div>
-  
-        <div class="card-body">
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b5_num_1" aria-describedby="helpId" placeholder="ngày">
-          </div>
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b5_num_2" aria-describedby="helpId" placeholder="tháng">
-          </div>
-          <div class="form-group">
-            <label for=""></label>
-            <input type="text"
-              class="form-control" name="" id="b5_num_3" aria-describedby="helpId" placeholder="năm">
-          </div>
-          <button class="btn btn-success"  id="b5_btn">kết quả</button>
-        </div> 
-        <div class="card-footer" id="b5_footer"></div>
-      </div>
-
-    </div>
-    
-    
-    
+   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

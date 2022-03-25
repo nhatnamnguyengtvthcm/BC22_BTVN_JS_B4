@@ -99,3 +99,37 @@ document.getElementById("b4_btn").addEventListener("click", function(){
     var content = createDiv(n);
     document.getElementById("b4_footer").appendChild(content);
 })
+
+document.getElementById("b5_btn").addEventListener("click", function(){
+    var num = document.getElementById("b5_num").value * 1;
+    var content = "";
+    if (num < 2) {
+        content = "khong có số nguyên tố nhỏ hơn 2";
+    
+    }
+    else if (num == 2){
+        content = "2";
+    }
+    else {
+        for(var i=3; i < num;i++){
+            var haft = i / 2;
+            var is_snt = true;
+            for(var j=2; j < haft; j++){
+                if (i % j == 0){
+                    is_snt = false; 
+                    break;
+                    
+                }
+               
+            }
+            if (is_snt == true){
+                var temp = i + ";";
+                content += temp;
+            }
+            
+        }
+    
+    }
+    document.getElementById("b5_footer").innerHTML = content;
+
+})

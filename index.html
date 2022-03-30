@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
     <div class="container">
@@ -94,6 +94,271 @@
         </div>
 
       </div>
+
+      <!-- bài tập buổi 7,  -->
+      <div class="bai_7_8 container">
+        <div class="card pt-5">
+         
+          <div class="form-group">
+            <label for=""></label>
+            <input type="number"
+              class="form-control" name="" id="b6_num" aria-describedby="helpId" placeholder="Số N thêm vào mảng">
+          </div>
+          
+          <div class="card-header">Đổi vị trí 2 phần tử trong mảng</div>
+          <div class="form-group">
+            <label for=""></label>
+            <input type="number"
+              class="form-control" name="" id="b12_num_1" aria-describedby="helpId" placeholder="vị trí 1">
+          </div>
+         
+          <div class="form-group">
+            <label for=""></label>
+            <input type="number"
+              class="form-control" name="" id="b12_num_2" aria-describedby="helpId" placeholder="Vị trí 2">
+          </div>
+         
+          <div class="form-group d-flex flex-column align-items-between ">
+            <div class="button">
+              <button class="btn btn-success"  id="b6_btn">Thêm phần tử</button>
+            </div>
+            <div class="button">
+              <button class="btn btn-success"  id="b7_btn" data-toggle="modal" data-target="#b_7_modal">Tổng các số dương có trong mảng</button>
+            </div>
+            <div class="button">
+              <button class="btn btn-success"  id="b8_btn" data-toggle="modal" data-target="#b_8_modal">Đếm số dương trong mảng</button>
+            </div>
+            <div class="button">
+              <button class="btn btn-success"  id="b9_btn" data-toggle="modal" data-target="#b_9_modal">Số nhỏ nhất trong mảng</button>
+            </div>
+            <div class="button">
+              <button class="btn btn-success"  id="b10_btn" data-toggle="modal" data-target="#b_10_modal">Số dương nhỏ nhất trong mảng</button>
+            </div>
+            <div class="button">
+              <button class="btn btn-success"  id="b11_btn" data-toggle="modal" data-target="#b_11_modal">Tìm số chẵn cuối cùng trong mảng</button>  
+            </div>
+            <div class="button">
+              <button class="btn btn-success"  id="b12_btn" data-toggle="modal" data-target="#b_12_modal">Đổi chổ 2 giá trị theo vị trí</button>  
+            </div>
+            <div class="button">
+              <button class="btn btn-success"  id="b13_btn">Sắp xêp mảng tăng dần</button>  
+            </div>
+            <div class="button">  
+              <button class="btn btn-success"  id="b14_btn" data-toggle="modal" data-target="#b_14_modal">Tìm số nguyên tố tiên</button>  
+            </div>
+            <div class="button">  
+              <button class="btn btn-success"  id="b15_btn" data-toggle="modal" data-target="#b_15_modal">Tổng số thực trong mảng</button>  
+            </div>
+            <div class="button">  
+              <button class="btn btn-success"  id="b16_btn" data-toggle="modal" data-target="#b_16_modal">So sánh tổng số âm và tổng số dương trong mảng</button>  
+            </div>
+           
+            
+          </div>
+            
+          <div class="form-group">
+            <label for="">Mảng</label>
+            <div class="array d-flex flex-wrap flex-gap ">
+              <!-- <div class="item"></div> -->
+            </div>
+          </div>
+          </div> 
+          
+          <div class="card-footer" id="b6_footer"></div>
+        </div>
+        <!-- Bài 7-->
+        <div class="modal" id="b_7_modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">TỔng các số dương có trong mảng</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body" id="b7_content">
+                
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Bài 8-->
+        <div class="modal" id="b_8_modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Số dương có trong mảng</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body" id="b8_content">
+                
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Bài 9-->
+        <div class="modal" id="b_9_modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Số nhỏ nhất trong mảng</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body" id="b9_content">
+                
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Bài 10-->
+        <div class="modal" id="b_10_modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Số nhỏ nhất trong mảng</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body" id="b10_content">
+                
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Bài 11-->
+        <div class="modal" id="b_11_modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Số chẵn cuối cùng trong mảng</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body" id="b11_content">
+                
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Bài 14-->
+        <div class="modal" id="b_14_modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Số nguyên tố đầu tiên trong mảng</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body" id="b14_content">
+                
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Bài 15-->
+        <div class="modal" id="b_15_modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">Tổng số thực trong mảng</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body" id="b15_content">
+                
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Bài 15-->
+        <div class="modal" id="b_16_modal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+
+              <!-- Modal Header -->
+              <div class="modal-header">
+                <h4 class="modal-title">So sánh tổng số am và tổng số dương trong mảng</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+              </div>
+
+              <!-- Modal body -->
+              <div class="modal-body" id="b16_content">
+                
+              </div>
+
+              <!-- Modal footer -->
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
